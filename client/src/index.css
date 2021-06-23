@@ -1,0 +1,108 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fira+Code:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap");
+/*
+font-family: 'DM Serif Display', serif;
+font-family: 'Fira Code', monospace;
+font-family: 'Syne', sans-serif;
+*/
+/* RESETS */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Display", serif;
+}
+h1 {
+  font-size: calc(1rem + 1.8vw);
+}
+h2 {
+  font-size: calc(1rem + 1.5vw);
+}
+h3 {
+  font-size: calc(1rem + 1.1vw);
+}
+h4 {
+  font-size: calc(1rem + 0.7vw);
+}
+h5 {
+  font-size: calc(1rem + 0.4vw);
+}
+h6 {
+  font-size: calc(1rem + 0.1vw);
+}
+
+p,
+div,
+main,
+aside {
+  font-size: calc(1rem + 0.001vw);
+}
+
+html {
+  font-size: calc(16px + 1vw);
+  /* line-height: calc(1.1em + 0.5vw); */
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Syne", sans-serif;
+  background-color: #0c0910;
+  /* background-color: #101015; */
+  color: #dfd3c0;
+}
+
+code {
+  font-family: "Fira Code", monospace;
+}
+
+/*
+@media screen and (min-width: 1024px) {
+  aside,
+  main {
+    width: 50%;
+  }
+
+  footer {
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1224px) {
+  aside {
+    width: 30%;
+  }
+  main {
+    width: 70%;
+  }
+}
+*/
