@@ -1,9 +1,17 @@
 /* FONTS */
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fira+Code:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cute+Font&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@400;500&family=DotGothic16&family=Gayathri:wght@100;400;700&family=JetBrains+Mono:wght@100;200;300;400&family=Petit+Formal+Script&family=Roboto:wght@100;300;400;500&family=Trispace:wght@100;200;300;400&family=Zen+Dots&display=swap");
 /*
-font-family: 'DM Serif Display', serif;
-font-family: 'Fira Code', monospace;
-font-family: 'Syne', sans-serif;
+font-family: 'Cute Font', cursive;
+font-family: 'DM Mono', monospace;
+font-family: 'DM Sans', sans-serif;
+font-family: 'DotGothic16', sans-serif;
+font-family: 'Gayathri', sans-serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Roboto', sans-serif;
+font-family: 'Trispace', sans-serif;
+font-family: 'Zen Dots', cursive;
+font-family: 'Petit Formal Script', cursive;
 */
 /* RESETS */
 *,
@@ -35,6 +43,16 @@ h4,
 h5,
 h6 {
   font-family: "DM Serif Display", serif;
+  font-family: "Zen Dots", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Gayathri", sans-serif;
+  font-family: "JetBrains Mono", monospace;
+
+  font-family: "DM Sans", sans-serif;
+  font-family: "DM Mono", monospace;
+  text-shadow: 2.5px 2.2px 0px #ce5937;
+
+  font-family: "Trispace", sans-serif;
 }
 h1 {
   font-size: calc(1rem + 1.8vw);

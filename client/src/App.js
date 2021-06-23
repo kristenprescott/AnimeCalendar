@@ -1,27 +1,25 @@
 import { useState, useEffect } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import axios from "axios";
 
 function App() {
   const [calendarData, setCalendarData] = useState({});
-  const [title, setTitle] = useState("");
-
-  async function fetchData() {
-    try {
-      const res = await axios.get(
-        "https://www.reddit.com/r/animecalendar/new/.json?&limit=30"
-      );
-      console.log(res.data);
-      const dateData = res.data;
-      setCalendarData(dateData);
-    } catch (err) {
-      console.error(err);
-    }
-    console.log("cal data: ", calendarData);
-  }
 
   useEffect(() => {
+    async function fetchData() {
+      try {
+        const res = await axios.get(
+          "https://www.reddit.com/r/animecalendar/new/.json?&limit=10"
+        );
+        // console.log(res.data);
+        const dateData = res.data;
+        setCalendarData(dateData);
+      } catch (err) {
+        console.error(err);
+      }
+      console.log("cal data: ", calendarData);
+    }
+
     fetchData();
   }, []);
 
@@ -45,7 +43,6 @@ function App() {
             />
           </div>
         </main>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
       </header>
     </div>
   );
