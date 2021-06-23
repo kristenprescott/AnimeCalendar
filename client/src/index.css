@@ -82,7 +82,6 @@ aside {
 
 html {
   font-size: calc(16px + 1vw);
-  /* line-height: calc(1.1em + 0.5vw); */
 }
 
 input:focus,
@@ -93,9 +92,7 @@ select:focus {
 body {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Syne", sans-serif;
   background-color: #0c0910;
-  /* background-color: #101015; */
   color: #dfd3c0;
 }
 
