@@ -32,7 +32,9 @@ function App() {
           </div> */}
           <div className="content-wrapper">
             {/* <div>ウィークデイ</div> */}
+            {/* ^^ "weekday" ^^ */}
             <div className="words">ウィークエンド</div>
+            {/* ^^ "the weekend" ^^ */}
 
             <div style={{ marginTop: "2rem" }} className="img-wrapper">
               <img
