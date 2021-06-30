@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/AnimeCalendar/static/css/main.42ad02a9.chunk.css",
+    "main.js": "/AnimeCalendar/static/js/main.8235d13c.chunk.js",
+    "main.js.map": "/AnimeCalendar/static/js/main.8235d13c.chunk.js.map",
+    "runtime-main.js": "/AnimeCalendar/static/js/runtime-main.fe60e56c.js",
+    "runtime-main.js.map": "/AnimeCalendar/static/js/runtime-main.fe60e56c.js.map",
+    "static/js/2.2b22f5bd.chunk.js": "/AnimeCalendar/static/js/2.2b22f5bd.chunk.js",
+    "static/js/2.2b22f5bd.chunk.js.map": "/AnimeCalendar/static/js/2.2b22f5bd.chunk.js.map",
+    "static/js/3.12bc984f.chunk.js": "/AnimeCalendar/static/js/3.12bc984f.chunk.js",
+    "static/js/3.12bc984f.chunk.js.map": "/AnimeCalendar/static/js/3.12bc984f.chunk.js.map",
+    "index.html": "/AnimeCalendar/index.html",
+    "static/css/main.42ad02a9.chunk.css.map": "/AnimeCalendar/static/css/main.42ad02a9.chunk.css.map",
+    "static/js/2.2b22f5bd.chunk.js.LICENSE.txt": "/AnimeCalendar/static/js/2.2b22f5bd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe60e56c.js",
+    "static/js/2.2b22f5bd.chunk.js",
+    "static/css/main.42ad02a9.chunk.css",
+    "static/js/main.8235d13c.chunk.js"
+  ]
+}
