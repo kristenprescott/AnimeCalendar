@@ -7,9 +7,11 @@
 </pre>
 
 
-
+<div align="center">
 
  [Enjoy.](https://kristenprescott.github.io/AnimeCalendar/) 
+     
+</div>
 
 
 
