@@ -8,7 +8,10 @@
 
 
 <div align="center">
-
+         
+<img width="1667" alt="Screen Shot 2021-07-28 at 9 07 03 AM" src="https://user-images.githubusercontent.com/55470100/127327246-5e12a673-5649-4eaf-b01e-526b10cd04ca.png">
+         
+         
 [Enjoy.](https://kristenprescott.github.io/AnimeCalendar/) 
      
 </div>
